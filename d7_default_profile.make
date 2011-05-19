@@ -1,7 +1,5 @@
 ; Nigel's default profile make file
-core = 7.x
-
-api = 2
+includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/drupal-org.make
 
 ; Modules
 projects[examples][version] = "1.x-dev"
