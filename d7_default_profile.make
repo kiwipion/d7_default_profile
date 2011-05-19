@@ -2,8 +2,6 @@
 includes[] = http://drupalcode.org/project/buildkit.git/blob_plain/refs/heads/7.x-2.x:/drupal-org.make
 
 ; Modules
-projects[examples][version] = "1.x-dev"
-
 projects[admin_menu][version] = "3.x-dev"
 
 projects[advanced_help][version] = "1.x-dev"
@@ -11,13 +9,6 @@ projects[advanced_help][version] = "1.x-dev"
 projects[ctools][version] = "1.x-dev"
 
 projects[captcha][version] = "1.x-dev"
-
-; Libraries
-libraries[ckeditor][directory_name] = "ckeditor"
-libraries[ckeditor][type] = "library"
-
-libraries[colorbox][directory_name] = "colorbox"
-libraries[colorbox][type] = "library"
 
 ; Modules
 projects[context][version] = "3.x-dev"
@@ -55,10 +46,6 @@ projects[rules][version] = "2.0-beta1"
 projects[security_review][version] = "1.x-dev"
 
 projects[skinr][version] = "2.x-dev"
-
-; Libraries
-libraries[superfish][directory_name] = "superfish"
-libraries[superfish][type] = "library"
 
 ; Modules
 projects[taxonomy_manager][version] = "1.x-dev"
