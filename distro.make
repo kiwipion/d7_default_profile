@@ -18,6 +18,6 @@ projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-a
 projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
 
 ; Adding my profile to the distro build
-projects[nigel_default] [type] = profile
-projects[nigel_default] [download][type] = git
-projects[nigel_default] [download][url] = git://github.com/kiwipion/d7_default_profile.git
+projects[d7_default_profile] [type] = profile
+projects[d7_default_profile] [download][type] = git
+projects[d7_default_profile] [download][url] = git://github.com/kiwipion/d7_default_profile.git
