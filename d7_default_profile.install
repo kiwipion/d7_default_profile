@@ -3,7 +3,7 @@
 /**
  * Implements hook_install().
  */
-function buildkit_install() {
+function d7_default_profile() {
   theme_enable(array('seven'));
   variable_set('theme_default', 'seven');
 }
