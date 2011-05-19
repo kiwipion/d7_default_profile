@@ -77,6 +77,4 @@ projects[pixture_reloaded][version] = "1.x-dev"
 projects[rootcandy][type] = "theme"
 projects[rootcandy][version] = "1.x-dev"
 
-libraries[yui][directory_name] = "yui"
-libraries[yui][type] = "library"
 
