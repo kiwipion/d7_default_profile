@@ -1,9 +1,0 @@
-<?php
-
-/**
- * Implements hook_install().
- */
-function d7_default_profile_install() {
-  theme_enable(array('seven'));
-  variable_set('theme_default', 'seven');
-}
